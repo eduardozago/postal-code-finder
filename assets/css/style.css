@@ -1,0 +1,33 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.finder {
+    max-width: 300px;
+    padding: 80px;
+    background-color: #F2F2F2;
+    display: flex;
+    flex-direction: column;
+    box-shadow: -0.5px 0.5px 5px #999;
+    border-radius: 5px;
+}
+
+.finder h2 {
+    margin-bottom: 40px;
+}
+
+.finder label {
+    margin-bottom: 10px;
+}
+
+.finder input {
+    font-size: 14px;
+}
