@@ -11,7 +11,7 @@ main {
 }
 
 .finder {
-    max-width: 300px;
+    width: 60vw;
     padding: 80px;
     background-color: #F2F2F2;
     display: flex;
@@ -40,4 +40,10 @@ main {
 
 .result li {
     list-style: none;
+}
+
+@media only screen and (max-width: 750px) {
+    .finder {
+        padding: 60px;
+    }
 }
